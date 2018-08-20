@@ -1,6 +1,6 @@
 {
   "name": "ngx-progressbar-rj",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "A nanoscopic progress bar. Featuring realistic trickle animations to convince your users that something is happening!",
   "private": false,
   "homepage": "http://github.com/murhafsousli/ngx-progressbar",
@@ -42,9 +42,9 @@
     "build-router": "ng build router",
     "init-build": "npm run build-core && npm run version && npm run link-core && npm run build-http && npm run version && npm run link-http && npm run build-router && npm run version && npm run link-router && npm run version",
     "build-all": "ng build core --prod && ng build http --prod && ng build router --prod && npm run version",
-    "link-core": "npm link dist/core && npm link @ngx-progressbar-rj-rj/core",
-    "link-http": "npm link dist/http && npm link @ngx-progressbar-rj-rj/http",
-    "link-router": "npm link dist/router && npm link @ngx-progressbar-rj-rj/router",
+    "link-core": "npm link dist/core && npm link @ngx-progressbar-rj/core",
+    "link-http": "npm link dist/http && npm link @ngx-progressbar-rj/http",
+    "link-router": "npm link dist/router && npm link @ngx-progressbar-rj/router",
     "publish-all": "node .config/publish.js",
     "version": "node .config/version.js"
   },

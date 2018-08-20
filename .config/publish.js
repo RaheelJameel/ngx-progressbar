@@ -16,6 +16,6 @@ console.log(
 
 packages.map(function(package) {
   const packagePath = `${__dirname}/../dist/${package}`;
-  execSync(`cd ${packagePath} && npm publish`);
+  execSync(`cd ${packagePath} && npm publish --access=public`);
   console.log(c.magenta(package), 'has been published', c.green(c.symbols.check));
 });
