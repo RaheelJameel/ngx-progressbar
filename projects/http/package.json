@@ -1,5 +1,5 @@
 {
-  "name": "@ngx-progressbar/http",
+  "name": "@ngx-progressbar-rj/http",
   "version": "VERSION",
   "description": "A nanoscopic progress bar. Featuring realistic trickle animations to convince your users that something is happening!",
   "private": false,
@@ -33,6 +33,6 @@
   "peerDependencies": {
     "@angular/common": "^6.0.0",
     "@angular/core": "^6.0.0",
-    "@ngx-progressbar/core": "VERSION"
+    "@ngx-progressbar-rj/core": "VERSION"
   }
 }

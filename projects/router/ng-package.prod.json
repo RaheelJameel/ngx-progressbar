@@ -4,7 +4,7 @@
   "lib": {
     "entryFile": "src/public_api.ts",
     "externals": {
-      "@ngx-progressbar/core": "@ngx-progressbar/core"
+      "@ngx-progressbar-rj/core": "@ngx-progressbar-rj/core"
     }
   }
 }

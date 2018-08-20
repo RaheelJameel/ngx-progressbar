@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { NavigationCancel, NavigationEnd, NavigationError, NavigationStart, Router } from '@angular/router';
-import { NgProgress } from '@ngx-progressbar/core';
+import { NgProgress } from '@ngx-progressbar-rj/core';
 
 @NgModule({})
 export class NgProgressRouterModule {

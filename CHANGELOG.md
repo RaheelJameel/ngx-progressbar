@@ -2,7 +2,7 @@
 
 ## 5.0.1
 
-- fix(build): fix `warning " > @ngx-progressbar/core@5.0.0" has incorrect peer dependency "@angular/core@5.0.0".`
+- fix(build): fix `warning " > @ngx-progressbar-rj/core@5.0.0" has incorrect peer dependency "@angular/core@5.0.0".`
 
 ## 5.0.0
 
@@ -72,12 +72,12 @@ For example:
 
 ### Breaking Changes
 
-- `@ngx-progressbar/http-client` package is deprecated in version 4.x, use `@ngx-progressbar/http` instead.
+- `@ngx-progressbar-rj/http-client` package is deprecated in version 4.x, use `@ngx-progressbar-rj/http` instead.
 - `[toggle]` input has been removed from the component.
 - `NgProgress.done()` has been renamed to `NgProgress.complete()`.
 - `NgProgress.ended` has been renamed to `NgProgress.completed()`.
 - Since `HttpModule` is deprecated, **NgProgress** no longer supports it.
-- `NgProgressHttpClientModule` has been renamed to `NgProgressHttpModule`, so now the `HttpClient` automagic feature is published on `@ngx-progressbar/http`
+- `NgProgressHttpClientModule` has been renamed to `NgProgressHttpModule`, so now the `HttpClient` automagic feature is published on `@ngx-progressbar-rj/http`
 
 ## 3.0.2
 
@@ -92,12 +92,12 @@ For example:
 
 ### Breaking Changes
 
-- Main package is now `@ngx-progressbar/core`
+- Main package is now `@ngx-progressbar-rj/core`
 
 - Auto-magic features will be used by importing its module:
-  - For Http requests, use `@ngx-progressbar/http`
-  - For HttpClient requests, use `@ngx-progressbar/http-client`
-  - For Router events, use `@ngx-progressbar/router`
+  - For Http requests, use `@ngx-progressbar-rj/http`
+  - For HttpClient requests, use `@ngx-progressbar-rj/http-client`
+  - For Router events, use `@ngx-progressbar-rj/router`
 
 - remove `[positionUsing]` option to use translate3d only
 - rename `[showSpinner]` option to `[spinner]`

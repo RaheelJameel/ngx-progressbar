@@ -42,9 +42,9 @@
     "build-router": "ng build router",
     "init-build": "npm run build-core && npm run version && npm run link-core && npm run build-http && npm run version && npm run link-http && npm run build-router && npm run version && npm run link-router && npm run version",
     "build-all": "ng build core --prod && ng build http --prod && ng build router --prod && npm run version",
-    "link-core": "npm link dist/core && npm link @ngx-progressbar/core",
-    "link-http": "npm link dist/http && npm link @ngx-progressbar/http",
-    "link-router": "npm link dist/router && npm link @ngx-progressbar/router",
+    "link-core": "npm link dist/core && npm link @ngx-progressbar-rj-rj/core",
+    "link-http": "npm link dist/http && npm link @ngx-progressbar-rj-rj/http",
+    "link-router": "npm link dist/router && npm link @ngx-progressbar-rj-rj/router",
     "publish-all": "node .config/publish.js",
     "version": "node .config/version.js"
   },

@@ -1,5 +1,5 @@
 {
-  "name": "@ngx-progressbar/core",
+  "name": "@ngx-progressbar-rj/core",
   "version": "VERSION",
   "description": "A nanoscopic progress bar. Featuring realistic trickle animations to convince your users that something is happening!",
   "private": false,

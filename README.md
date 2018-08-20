@@ -7,22 +7,22 @@ A nanoscopic progress bar. Featuring realistic trickle animations to convince yo
 
 ___
 [![npm](https://img.shields.io/badge/demo-online-ed1c46.svg)](https://murhafsousli.github.io/ngx-progressbar/)
-[![npm](https://img.shields.io/npm/v/@ngx-progressbar/core.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/@ngx-progressbar/core) 
+[![npm](https://img.shields.io/npm/v/@ngx-progressbar-rj/core.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/@ngx-progressbar-rj/core) 
 [![Build Status](https://travis-ci.org/MurhafSousli/ngx-progressbar.svg?branch=master)](https://travis-ci.org/MurhafSousli/ngx-progressbar)
-[![npm](https://img.shields.io/npm/dt/@ngx-progressbar/core.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/@ngx-progressbar/core)
-[![npm](https://img.shields.io/npm/dm/@ngx-progressbar/core.svg)](https://www.npmjs.com/package/@ngx-progressbar/core)
+[![npm](https://img.shields.io/npm/dt/@ngx-progressbar-rj/core.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/@ngx-progressbar-rj/core)
+[![npm](https://img.shields.io/npm/dm/@ngx-progressbar-rj/core.svg)](https://www.npmjs.com/package/@ngx-progressbar-rj/core)
 [![npm](https://img.shields.io/npm/l/express.svg?maxAge=2592000)](https://github.com/MurhafSousli/ngx-progressbar/blob/master/LICENSE)
 
 ### Before you begin!
 
 This is the documentations for:
 
-- `@ngx-progressbar/*` v5.x supports Angular >= 6
-- `@ngx-progressbar/*` v4.x supports Angular >= 5
+- `@ngx-progressbar-rj/*` v5.x supports Angular >= 6
+- `@ngx-progressbar-rj/*` v4.x supports Angular >= 5
 
 Older versions:
 
-- `@ngx-progressbar/*` v3.x supports Angular >= 5, see the [docs for v3.x](README_V3.md)
+- `@ngx-progressbar-rj/*` v3.x supports Angular >= 5, see the [docs for v3.x](README_V3.md)
 - `ngx-progressbar` v2.x supports Angular 2 & 4, see the [docs for v2.x](https://github.com/MurhafSousli/ngx-progressbar/wiki)
 
 ***
@@ -50,13 +50,13 @@ Older versions:
 NPM
 
 ```
-$ npm i -S @ngx-progressbar/core
+$ npm i -S @ngx-progressbar-rj/core
 ```
 
 YARN
 
 ```
-yarn add @ngx-progressbar/core
+yarn add @ngx-progressbar-rj/core
 ```
 
 [stackblitz](https://stackblitz.com/edit/ngx-progressbar)
@@ -68,7 +68,7 @@ yarn add @ngx-progressbar/core
 Import `NgProgressModule` in the root module
 
 ```ts
-import { NgProgressModule } from '@ngx-progressbar/core';
+import { NgProgressModule } from '@ngx-progressbar-rj/core';
 
 @NgModule({
   imports: [
@@ -219,7 +219,7 @@ You can set the default config for all progress bars in **NgProgressModule**.
 Example:
 
 ```ts
-import { NgProgressModule } from '@ngx-progressbar/core';
+import { NgProgressModule } from '@ngx-progressbar-rj/core';
 
 @NgModule({
   imports: [
@@ -263,19 +263,19 @@ If you only need a progress bar for multiple requests, there is a simple _plug a
 NPM
 
 ```
-$ npm i -S @ngx-progressbar/{core,http}
+$ npm i -S @ngx-progressbar-rj/{core,http}
 ```
 
 YARN
 
 ```
-$ yarn add @ngx-progressbar/{core,http}
+$ yarn add @ngx-progressbar-rj/{core,http}
 ```
 
 ```ts
 import { HttpClientModule } from '@angular/common/http';
-import { NgProgressModule } from '@ngx-progressbar/core';
-import { NgProgressHttpModule } from '@ngx-progressbar/http';
+import { NgProgressModule } from '@ngx-progressbar-rj/core';
+import { NgProgressHttpModule } from '@ngx-progressbar-rj/http';
 
 @NgModule({
   imports: [
@@ -308,21 +308,21 @@ If you need the progress bar to start for navigating between your app routes, ad
 NPM
 
 ```
-$ npm i -S @ngx-progressbar/{core,router}
+$ npm i -S @ngx-progressbar-rj/{core,router}
 ```
 
 YARN
 
 ```
-$ yarn add @ngx-progressbar/{core,router}
+$ yarn add @ngx-progressbar-rj/{core,router}
 ```
 
 To start the progress bar on router events use this code:
 
 ```ts
 import { RouterModule } from '@angular/router';
-import { NgProgressModule } from '@ngx-progressbar/core';
-import { NgProgressRouterModule } from '@ngx-progressbar/router';
+import { NgProgressModule } from '@ngx-progressbar-rj/core';
+import { NgProgressRouterModule } from '@ngx-progressbar-rj/router';
 
 @NgModule({
   imports: [
@@ -349,7 +349,7 @@ You can integrate any progress bar or spinner by subscribing to `NgProgress.stat
 
 ```ts
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { NgProgress, progressRef } from '@ngx-progressbar/core';
+import { NgProgress, progressRef } from '@ngx-progressbar-rj/core';
 
 @Component({
   selector: 'app',

@@ -7,7 +7,7 @@ A nanoscopic progress bar. Featuring realistic trickle animations to convince yo
 
 ___
 [![npm](https://img.shields.io/badge/demo-online-ed1c46.svg)](https://murhafsousli.github.io/ngx-progressbar/)
-[![npm](https://img.shields.io/npm/v/@ngx-progressbar/core.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/ngx-progressbar) 
+[![npm](https://img.shields.io/npm/v/@ngx-progressbar-rj/core.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/ngx-progressbar) 
 [![Build Status](https://travis-ci.org/MurhafSousli/ngx-progressbar.svg?branch=master)](https://www.npmjs.com/package/ngx-progressbar) 
 [![npm](https://img.shields.io/npm/l/express.svg?maxAge=2592000)](/LICENSE)
 
@@ -36,7 +36,7 @@ For Angular 2.x & 4.x use ngx-progress@2.1.1, See the [Wiki documentation](https
 Install it with npm
 
 ```bash
-$ npm install --save @ngx-progressbar/core@3.0.2
+$ npm install --save @ngx-progressbar-rj/core@3.0.2
 ```
 [stackblitz](https://stackblitz.com/edit/ngx-progressbar)
 
@@ -47,7 +47,7 @@ $ npm install --save @ngx-progressbar/core@3.0.2
 Import `NgProgressModule` in the root module
 
 ```ts
-import { NgProgressModule } from '@ngx-progressbar/core';
+import { NgProgressModule } from '@ngx-progressbar-rj/core';
 
 @NgModule({
   imports: [
@@ -66,7 +66,7 @@ In your template
 Add `NgProgress` service wherever you want to use the progressbar.
 
 ```ts
-import { NgProgress } from '@ngx-progressbar/core';
+import { NgProgress } from '@ngx-progressbar-rj/core';
 
 export class AppComponent {
 
@@ -135,13 +135,13 @@ If you only need a progress bar for multiple requests, there is a simple _plug a
 Install **NgProgressHttpModule**
 
 ```bash
-$ npm install --save @ngx-progressbar/core@3.0.2 @ngx-progressbar/http@3.0.2
+$ npm install --save @ngx-progressbar-rj/core@3.0.2 @ngx-progressbar-rj/http@3.0.2
 ```
 
  ```ts
 import { HttpModule } from '@angular/http';
-import { NgProgressModule } from '@ngx-progressbar/core';
-import { NgProgressHttpModule } from '@ngx-progressbar/http';
+import { NgProgressModule } from '@ngx-progressbar-rj/core';
+import { NgProgressHttpModule } from '@ngx-progressbar-rj/http';
 
 @NgModule({
   imports: [
@@ -169,13 +169,13 @@ The progress will start and complete automatically with your HTTP requests. no n
 Install **NgProgressHttpClientModule**
 
 ```bash
-$ npm install --save @ngx-progressbar/core@3.0.2 @ngx-progressbar/http-client@3.0.2
+$ npm install --save @ngx-progressbar-rj/core@3.0.2 @ngx-progressbar-rj/http-client@3.0.2
 ```
 
 ```ts
 import { HttpClientModule } from '@angular/common/http';
-import { NgProgressModule } from '@ngx-progressbar/core';
-import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
+import { NgProgressModule } from '@ngx-progressbar-rj/core';
+import { NgProgressHttpClientModule } from '@ngx-progressbar-rj/http-client';
 
 @NgModule({
   imports: [
@@ -206,15 +206,15 @@ Install **NgProgressRouterModule**
 If you need the progress bar to start for navigating between your app routes, add this module
 
 ```bash
-$ npm install --save @ngx-progressbar/core@3.0.2 @ngx-progressbar/router@3.0.2
+$ npm install --save @ngx-progressbar-rj/core@3.0.2 @ngx-progressbar-rj/router@3.0.2
 ```
 
 To start the progress bar on router events use this code:
 
 ```ts
 import { RouterModule } from '@angular/router';
-import { NgProgressModule } from '@ngx-progressbar/core';
-import { NgProgressRouterModule } from '@ngx-progressbar/router';
+import { NgProgressModule } from '@ngx-progressbar-rj/core';
+import { NgProgressRouterModule } from '@ngx-progressbar-rj/router';
 
 @NgModule({
   imports: [

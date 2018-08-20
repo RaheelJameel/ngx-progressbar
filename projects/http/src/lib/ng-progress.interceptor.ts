@@ -2,7 +2,7 @@ import { Injectable, Optional, Inject } from '@angular/core';
 import { HttpInterceptor, HttpEvent, HttpHandler, HttpRequest } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { finalize } from 'rxjs/operators';
-import { NgProgress } from '@ngx-progressbar/core';
+import { NgProgress } from '@ngx-progressbar-rj/core';
 import { NgProgressHttpConfig } from './ng-progress-http.interface';
 import { CONFIG } from './ng-progress-http.token';
 

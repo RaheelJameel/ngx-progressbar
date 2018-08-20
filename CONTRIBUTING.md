@@ -24,9 +24,9 @@ $ yarn install
  
 The are 3 packages
  
-- **@ngx-progressbar/core**         no dependencies
-- **@ngx-progressbar/http**         depended on the core package
-- **@ngx-progressbar/router**       depended on the core package
+- **@ngx-progressbar-rj/core**         no dependencies
+- **@ngx-progressbar-rj/http**         depended on the core package
+- **@ngx-progressbar-rj/router**       depended on the core package
 
 **A. Build the core package**
 
