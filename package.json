@@ -1,5 +1,5 @@
 {
-  "name": "ngx-progressbar",
+  "name": "ngx-progressbar-rj",
   "version": "5.0.1",
   "description": "A nanoscopic progress bar. Featuring realistic trickle animations to convince your users that something is happening!",
   "private": false,
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/murhafsousli/ngx-progressbar.git"
+    "url": "git://github.com/raheeljameel/ngx-progressbar.git"
   },
   "keywords": [
     "angular",
